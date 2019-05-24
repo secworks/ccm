@@ -48,11 +48,11 @@ import sys
 
 # Note this assumes that the aes implementation is either in the
 # same dir or symlinked.
-from aes import *
+from aes import AES
 
 
 #-------------------------------------------------------------------
-# test_cmac()
+# test_ccm()
 #
 #-------------------------------------------------------------------
 def test_ccm():
